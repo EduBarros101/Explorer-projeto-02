@@ -86,8 +86,29 @@ h1 {
 }
 
 button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+
+  background: #69b99d;
+  border: none;
+  border-radius: 4px;
+
+  width: 179px;
+  height: 56px;
+
   font-family: 'Open Sans', sans-serif;
+  color: white;
   text-transform: uppercase;
+
+  cursor: pointer;
+
+  &:hover {
+    background: #4ea788;
+  }
 }
 
 footer {
