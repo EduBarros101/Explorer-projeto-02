@@ -1,3 +1,4 @@
+// Resets
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +7,98 @@
 
 ul {
   list-style: none;
+}
+
+// Styling
+
+.page {
+  width: 1000px;
+  margin: 65px auto 0;
+}
+
+.section-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    gap: 48px;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #1f1534;
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 58px;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 490px;
+
+    p {
+      width: 438px;
+      font-size: 14px;
+      line-height: 28px;
+      color: #7d7987;
+    }
+  }
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 56px;
+  color: #000;
+
+  span {
+    color: #89c5cc;
+    font-weight: bold;
+  }
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+
+  margin-top: 80px;
+
+  a {
+    font-weight: bold;
+    color: #000000;
+  }
 }
